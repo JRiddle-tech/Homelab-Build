@@ -1,4 +1,4 @@
-<h1>HomeLab PC Build</h1>
+<h1>Homelab PC Build</h1>
 
 <p>A homelab is a personal computing environment that I've set up at home, which serves as my own laboratory for learning, experimenting, and testing various technologies, using virtualization.
 The reasons for having a homelab can vary, but for me, it's a valuable tool for several purposes: </p>
@@ -83,6 +83,18 @@ The reasons for having a homelab can vary, but for me, it's a valuable tool for 
   </div>
 </div>
 <p>I wasn't too pleased with the options for placing the radiator, as mounting it on the bottom of the case with the tubes going up to the CPU reportedly leads to reduced AIO efficiency. Additionally, the AIO cooler setup in this case ultimately wasn't an effective solution, as I needed more space to put HDDs, and the machine isn't going to be getting too hot given its role.</p> <p>For this reason, I purchased a low-profile CPU fan from Noctua and have been happy with the result. The Noctua NH-L9i is a high-quality, low-profile cooler that provides excellent cooling performance while taking up minimal space in the case. It's also very quiet, which is an added bonus for a small form factor build like this one.</p>
+
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <p align="center"> <br/> <h2>GPU</h2></p>
+    <img src="https://i.imgur.com/zaesDam.png" style="height: 70%; width: auto;/>
+  </div>
+  <div style="flex: 1; padding-left: 20px;">
+  </div>
+</div>
+<p>Initially, my use-case for this build was to use the integrated graphics with the Intel CPU and not use a dedicated GPU. However, I was curious to see how it would fit with the PCIe riser cable and explore using an NVIDIA GPU in Proxmox (I had used AMD in a previous build and it was challenging).</p> <p>The placement of the AIO cooler meant that a GPU wouldn't be able to fit without a riser and a vertical mount. This is another reason that the AIO cooler wasn't a good long-term solution for my build.</p> <p>After experimenting with a GPU in the build, I ultimately removed it. </p>
+
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
