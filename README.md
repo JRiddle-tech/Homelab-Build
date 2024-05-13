@@ -104,6 +104,18 @@ The reasons for having a homelab can vary, but for me, it's a valuable tool for 
   <div style="flex: 1; padding-left: 20px;">
   </div>
 </div>
-<p>For storage, I have purchased two Seagate IronWolf 12TB NAS Internal Hard Drive HDDs which I am planning to use in a RAID 1 pool in Proxmox. This will provide redundancy and ensure that my data is safe in the event of a drive failure.</p> 
-<p>Since the NR200p case doesn't have a lot of room for hard drives, I have a friend with a 3D printer, and we are working together to create a custom mounting solution. This will allow me to mount the drives securely and efficiently in the case.</p> 
-<p>This is the current configuration, and I will keep updating this section as I make changes and improvements to the storage setup.</p>
+
+
+<p>For storage, I have purchased two Seagate IronWolf 12TB NAS Internal Hard Drive HDDs which I am planning to use in a mirrored zfs pool in Proxmox. This will provide redundancy and ensure that my data is safe in the event of a drive failure.</p> 
+<p>Since the NR200p case doesn't have a lot of room for hard drives, I have a friend with a 3D printer, and together we created a custom mounting solution. This allowed me to mount the drives securely and efficiently in the case.</p> 
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <p align="center"> <br/> </p>
+    <img src="https://i.imgur.com/kNNoEr0.png" style="height: 70%; width: auto;/>
+  </div>
+  <div style="flex: 1; padding-left: 20px;">
+  </div>
+</div>
+
+<p>This is the current working configuration, next I am planning to add a quad port intel NIC.</p>
